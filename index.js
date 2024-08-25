@@ -29,3 +29,27 @@ console.log("Du lieu 1");
 console.log("BMI cua Mark:", marksBMI1.toFixed(2));
 console.log("BMI cua Jonh:", jonhBMI1.toFixed(2));
 console.log("Mark co BMI cao hon Jonh khong?", markHigherBMI1);
+
+ /**Du lieu 2 */
+ /**1. Store Mark's and John's mass and height in variables */
+let marksMass2 = 95 ;
+let marksHeight2 = 1.88;
+
+let johnMass2 = 85 ;
+let johnHeight2 = 1.76 ;
+
+/**2. Calculate both their BMIs using the formula (you can even implement both
+versions) */
+
+let marksBMI2 = marksMass2 / (marksHeight2 ** 2) ;
+let jonhBMI2  = johnMass2 /(johnHeight2 ** 2);
+
+/**3. Create a Boolean variable 'markHigherBMI' containing information about
+whether Mark has a higher BMI than John. */
+
+let markHigherBMI2 = marksBMI2 > jonhBMI2 ;
+
+console.log("Du lieu 2");
+console.log("BMI cua Mark:", marksBMI2.toFixed(2));
+console.log("BMI cua Jonh:", jonhBMI2.toFixed(2));
+console.log("Mark co BMI cao hon Jonh khong?", markHigherBMI2);
