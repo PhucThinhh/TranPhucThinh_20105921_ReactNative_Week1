@@ -53,3 +53,6 @@ console.log("Du lieu 2");
 console.log("BMI cua Mark:", marksBMI2.toFixed(2));
 console.log("BMI cua Jonh:", jonhBMI2.toFixed(2));
 console.log("Mark co BMI cao hon Jonh khong?", markHigherBMI2);
+
+
+
